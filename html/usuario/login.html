@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/usuario/login.css?">
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../css/usuario/menu.css">
+    
+
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1>ONE WAY</h1>
+    </header>
+   
+    <main>
+        <div class="sidebar close">
+            <div class="logo-details">
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <span class="logo_name">ONE WAY</span>
+            </div>
+            <ul class="nav-links">
+            <li>
+                <a href="../../html/usuario/index.html">
+                <i class='bx bx-home'></i>
+                <span class="link_name">Home</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="#">Home</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                <a href="../../html/usuario/produtos.html">
+                    <i class='bx bx-collection' ></i>
+                    <span class="link_name">Produtos</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow' ></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="../../html/usuario/produtos.html">Produtos</a></li>
+                    <li><a href="../../html/usuario/produtos.html#superiores">Superiores</a></li>
+                    <li><a href="../../html/usuario/produtos.html#inferiores">Inferiores</a></li>
+                    <li><a href="../../html/usuario/produtos.html#acessorios">Acessórios</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../../php/pages/usuario/carrinho.php">
+                <i class='bx bx-cart' ></i>
+                <span class="link_name">Carrinho</span>
+                </a>
+                <ul class="sub-menu blank">
+                <li><a class="link_name" href="../../php/pages/usuario/carrinho.php">Carrinho</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                <a href="#">
+                    <i class='bx bx-user' ></i>
+                    <span class="link_name">Conta</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow' ></i>
+                </div>
+                <ul class="sub-menu">
+                <li><a class="link_name" href="#">Conta</a></li>
+                <li><a href="../../html/usuario/login.html">Login</a></li>
+                <li><a href="../../html/usuario/cadastro.html">Cadastro</a></li>
+                </ul>
+            </li>
+            <!--
+                <li>
+                    <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="image/profile.jpg" alt="profileImg">
+                    </div>
+                    <div class="name-job">
+                        <div class="profile_name">Prem Shahi</div>
+                        <div class="job">Web Desginer</div>
+                    </div>
+                    <i class='bx bx-log-out' ></i>
+                    </div>
+                </li>
+            -->
+            
+        </ul>
+    </div>
+        <script src="../../js/sidebar.js"></script>
+        <form method="POST" action="../../php/actions/usuario/loginUsuario.php">
+            <fieldset>
+                <h1>Login</h1>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="email" placeholder="coloque seu email" required>
+                </div>
+                <div class="input">
+                    <label for="">Senha</label>
+                    <input type="password" name="senha" id="senha" class="senha" placeholder="coloque sua senha" minlength="6" maxlength="255" required>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="login">
+                    <span>Esqueceu sua senha ?<a href="../../html/cadastro.html" class="link_cadastro">Clique aqui</a></span>
+                </div>
+                
+            </fieldset> 
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home1{
+    scroll-snap-align: start;
+    height: 100vh;
+    background-image: url(../../src/img/carrousel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home1 > p{
+    background-color: #F6FFFF;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    width: 100%;
+    padding: 1px 0px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.title-led{
+    filter: brightness(200%);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.title-led >h2{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F00;
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* text-shadow: 0px 0px 5px #F00; */
+}
+
+.home2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    height: 100vh;
+    background-image: url(../../src/img/back\ cupons.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-cupom{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.h2-cupom{
+    display: flex;
+    color: transparent;
+    justify-content: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #93F8FF;
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* text-shadow: 0px 0px 5px #F00; */
+}
+
+.p-cupom{
+    color: #f6f6f6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+/* produtos */
+.home3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.header_new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_new > h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.produto_img:hover{
+    /*-webkit-box-shadow: inset 0px 0px 100px rgba(0,0,20,1);*/
+    background: -webkit-linear-gradient(-90deg, rgba(0, 7, 7, 0.00) 0%, #000707 100%);
+    display: table;
+    
+}
+
+.produto_img > img {
+    position: relative;
+    z-index: -1; 
+}
+.linha1{
+    width: 1240.008px;
+    height: 2px; 
+    background: #000A0B;
+}
+.line {
+    width: 400px;
+    height: 2px;  
+    background: #000;
+}
+.btn_veja > a {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 77.039%; /* 19.26px */
+    text-decoration: none;
+}
+
+button{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #000707;
+    width: 400px;
+    height: 80px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+}
+
+.produto_img{
+    overflow: hidden;
+    position: relative;
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 7, 7, 0.00) 0%, #000707 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all 0.5s;
+}
+
+.produto_img:hover .card-body{
+    bottom: 0;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+.produto_nome > span {
+    color: #091414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 77.039%; /* 19.26px */
+}
+.produto_nome {
+    margin: 25px 0 25px 0;
+}
+
+.home4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; 
+}
+.home5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    height: 100vh;
+    background-image: url(../../src/img/bg-sec5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.box_anuncio{
+    background: rgba(57, 57, 57, 0.68);
+    -webkit-backdrop-filter: blur(9.199999809265137px);
+    backdrop-filter: blur(9.199999809265137px);
+    padding: 5rem;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.dr{
+    position: relative;
+    left: 200px;
+}
+
+.box_anuncio h3{
+    position: relative;
+    left: 200px;
+}
+
+.call > p {
+    color: #FFF;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 28.07px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.call > h3 {
+    color: #F6FFFF;
+    font-family: Akira Expanded;
+    font-size: 79.31px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.rede_item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.redes > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28.07px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.rede_item > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28.07px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; 
+}
+.title-rod{
+    display: flex;
+    /* position: absolute; */
+}
+
+.img-rod{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}

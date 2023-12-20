@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_new > h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.linha1{
+    width: 1240.008px;
+    height: 2px; 
+    background: #000A0B;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 1240px;
+    flex-wrap: wrap;
+}
