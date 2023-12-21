@@ -7,7 +7,7 @@
 
 ## Integrantes: 
 - <a href="https://www.linkedin.com/in/lucasrgrecco/">Lucas Rodrigues Grecco - Front End</a>
-- <a>Pedro Botelho - Back end</a>
+- <a href="https://www.linkedin.com/in/pedro-botelho-528370209/">Pedro Botelho - Back end</a>
 - <a>Laura Cintra - Front End</a> 
 - <a>Noah - Design</a>
 
