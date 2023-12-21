@@ -9,7 +9,7 @@
 - <a href="https://www.linkedin.com/in/lucasrgrecco/">Lucas Rodrigues Grecco - Front End</a>
 - <a href="https://www.linkedin.com/in/pedro-botelho-528370209/">Pedro Botelho - Back end</a>
 - <a>Laura Cintra - Front End</a> 
-- <a>Noah - Design</a>
+- <a href="https://www.linkedin.com/in/noah-barbosa-570484279">Noah Barbosa - Design</a>
 
 ## 📝 Descrição
 
