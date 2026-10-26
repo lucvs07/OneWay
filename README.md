@@ -1,5 +1,9 @@
 # Trabalho para o componente Sistemas Web II - Etec Parque Belém
 
+<!-- portfolio:pt -->
+Sistema de e-commerce para uma loja de roupas, com CRUD em PHP para gerenciar o estoque de produtos. Projeto da Etec Parque Belém.
+<!-- /portfolio:pt -->
+
 <p align="center">
 
 
